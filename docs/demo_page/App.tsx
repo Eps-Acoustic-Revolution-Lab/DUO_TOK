@@ -17,15 +17,15 @@ const SectionHeader: React.FC<{ title: string; subtitle: string }> = ({ title, s
 
 // Demo Data Configuration
 const DEMO_SAMPLE_1: AudioTrack[] = [
-  { id: 'mix_1', label: 'Mix', src: '/duotok/duotok_mix_recon.wav' },
-  { id: 'vocal_1', label: 'Vocal', src: '/duotok/duotok_vocal_recon.wav' },
-  { id: 'instr_1', label: 'Accompaniment', src: '/duotok/duotok_accompany_recon.wav' },
+  { id: 'mix_1', label: 'Mix', src: '/duotok_mix_recon.wav' },
+  { id: 'vocal_1', label: 'Vocal', src: '/duotok_vocal_recon.wav' },
+  { id: 'instr_1', label: 'Accompaniment', src: '/duotok_accompany_recon.wav' },
 ];
 
 const DEMO_SAMPLE_2: AudioTrack[] = [
-  { id: 'mix_2', label: 'Mix', src: '/duotok/duotok_mix_recon_2.wav' },
-  { id: 'vocal_2', label: 'Vocal', src: '/duotok/duotok_vocal_recon_2.wav' },
-  { id: 'instr_2', label: 'Accompaniment', src: '/duotok/duotok_accompany_recon_2.wav' },
+  { id: 'mix_2', label: 'Mix', src: '/duotok_mix_recon_2.wav' },
+  { id: 'vocal_2', label: 'Vocal', src: '/duotok_vocal_recon_2.wav' },
+  { id: 'instr_2', label: 'Accompaniment', src: '/duotok_accompany_recon_2.wav' },
 ];
 
 function App() {
