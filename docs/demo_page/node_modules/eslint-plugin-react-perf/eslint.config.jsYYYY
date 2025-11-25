@@ -1,0 +1,30 @@
+import { FlatCompat } from "@eslint/eslintrc";
+import js from "@eslint/js";
+
+const compat = new FlatCompat({
+  baseDirectory: import.meta.url,
+});
+
+export default [
+  js.configs.recommended,
+  {
+    files: ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"],
+    languageOptions: {
+      ecmaVersion: 2020,
+      sourceType: "module",
+      // parserOptions: {
+      //   ecmaFeatures: {
+      //     jsx: true,
+      //   },
+      // },
+    },
+    env: {
+      browser: true,
+      es2021: true,
+    },
+    rules: {
+      "space-before-function-paren": 0,
+    },
+  },
+  ...compat.extends("standard"),
+];

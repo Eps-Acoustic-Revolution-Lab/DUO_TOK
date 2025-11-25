@@ -1,0 +1,29 @@
+import { FlatCompat } from "@eslint/eslintrc";
+import js from "@eslint/js";
+import standardPlugin from "eslint-config-standard";
+
+const compat = new FlatCompat({
+  baseDirectory: import.meta.url,
+});
+
+export default [
+  js.configs.recommended,
+  {
+    files: ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"],
+    languageOptions: {
+      ecmaVersion: 2020,
+      sourceType: "module",
+    },
+    env: {
+      browser: true,
+      es2021: true,
+    },
+    plugins: {
+      standard: standardPlugin,
+    },
+    rules: {
+      "space-before-function-paren": 0,
+    },
+  },
+  ...compat.extends("standard"),
+];
