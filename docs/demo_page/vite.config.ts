@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
 
     return {
       // 👇 关键：指定部署子路径
-      base: isProd ? '/duotok/' : '/',
+  base: isProd ? '/DUO_TOK/' : '/',
       server: {
         port: 3000,
         host: '0.0.0.0',
