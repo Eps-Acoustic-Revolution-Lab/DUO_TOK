@@ -227,9 +227,9 @@ function App() {
              </div>
             <p className="mb-6 font-medium text-gray-900">© 2025 εar-lab, initi:AI Ltd.</p>
             <div className="flex gap-8 font-medium text-gray-600">
-              <a href="#" className="hover:text-brand-accent transition-colors">Paper PDF</a>
-              <a href="#" className="hover:text-brand-accent transition-colors">GitHub Repo</a>
-              <a href="#" className="hover:text-brand-accent transition-colors">Contact</a>
+              <a href="https://arxiv.org/pdf/2511.20224" className="hover:text-brand-accent transition-colors">Paper PDF</a>
+              <a href="https://github.com/Eps-Acoustic-Revolution-Lab/DUO_TOK" className="hover:text-brand-accent transition-colors">GitHub Repo</a>
+              <a href="mailto:earlab2025@gmail.com" className="hover:text-brand-accent transition-colors">Contact</a>
             </div>
             <p className="mt-8 text-xs text-gray-400 max-w-lg leading-relaxed">
               This is a demo visualization page based on the research paper "DUO-TOK: Dual-Track Semantic Music Tokenizer for Vocal–Accompaniment Generation".

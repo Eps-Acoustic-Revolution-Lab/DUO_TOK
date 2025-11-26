@@ -1,8 +1,8 @@
 # Duo-Tok: Dual-Track Semantic Music Tokenizer for Vocal–Accompaniment Generation
 
 <p align="center">
-  <a href="https://arxiv.org/abs/XXXX.XXXXX"><img src="https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg" alt="arXiv"></a>
-  <a href="https://YOUR_DEMO_PAGE_URL"><img src="https://img.shields.io/badge/Demo-Page-blue" alt="Demo Page"></a>
+  <a href="https://arxiv.org/abs/2511.20224"><img src="https://img.shields.io/badge/arXiv-2511.20224-b31b1b.svg" alt="arXiv"></a>
+  <a href="https://github.com/Eps-Acoustic-Revolution-Lab/DUO_TOK"><img src="https://img.shields.io/badge/Demo-Page-blue" alt="Demo Page"></a>
 </p>
 
 > Official repository for **“Duo-Tok: Dual-Track Semantic Music Tokenizer for Vocal–Accompaniment Generation.”**
@@ -35,8 +35,8 @@ For now, this repository only contains:
 
 ## Resources
 
-- 📄 **Paper**: [arXiv preprint](https://arxiv.org/abs/XXXX.XXXXX)
-- 🌐 **Project page**: [Demo Page](https://YOUR_DEMO_PAGE_URL)
+- 📄 **Paper**: [arXiv preprint](https://arxiv.org/abs/2511.20224)
+- 🌐 **Project page**: [Demo Page](https://github.com/Eps-Acoustic-Revolution-Lab/DUO_TOK)
 
 ---
 
@@ -89,10 +89,14 @@ The exact timeline depends on internal cleanup and licensing; updates will be po
 If you find Duo-Tok useful in your research, please consider citing:
 
 ```bibtex
-@article{lin2025duotok,
-  title   = {Duo-Tok: Dual-Track Semantic Music Tokenizer for Vocal--Accompaniment Generation},
-  author  = {Lin, Rui and Wu, Zhiyue and Lei, Jiahe and Wang, Kangdi and Chen, Weixiong and Dai, Junyu and Jiang, Tao},
-  journal = {arXiv preprint},
-  year    = {2025},
-  note    = {to appear}
+@misc{lin2025duotokdualtracksemanticmusic,
+      title={DUO-TOK: Dual-Track Semantic Music Tokenizer for Vocal-Accompaniment Generation}, 
+      author={Rui Lin and Zhiyue Wu and Jiahe Le and Kangdi Wang and Weixiong Chen and Junyu Dai and Tao Jiang},
+      year={2025},
+      eprint={2511.20224},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD},
+      url={https://arxiv.org/abs/2511.20224}, 
 }
+```
+

@@ -26,13 +26,18 @@ export const Hero: React.FC = () => {
         </p>
 
         <div className="flex flex-wrap justify-center gap-4 mt-4 mb-8">
-          <button className="group flex items-center space-x-2 bg-gray-900 text-white px-8 py-4 rounded-xl font-medium shadow-lg shadow-gray-900/20 hover:bg-black hover:scale-105 transition-all duration-200">
+          <a 
+            href="https://arxiv.org/abs/2511.20224"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex items-center space-x-2 bg-gray-900 text-white px-8 py-4 rounded-xl font-medium shadow-lg shadow-gray-900/20 hover:bg-black hover:scale-105 transition-all duration-200"
+          >
             <FileText size={18} />
             <span>Read Paper</span>
-          </button>
+          </a>
           
           <a 
-            href="https://github.com/Eps-Acoustic-Revolution-Lab" 
+            href="https://github.com/Eps-Acoustic-Revolution-Lab/DUO_TOK" 
             target="_blank" 
             rel="noopener noreferrer"
             className="group relative flex items-center space-x-2 bg-white text-gray-900 px-8 py-4 rounded-xl font-medium border border-gray-200 shadow-sm hover:border-gray-300 hover:bg-gray-50 hover:scale-105 transition-all duration-200"
